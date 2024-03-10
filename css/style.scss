@@ -286,6 +286,8 @@ button {
 content {
   display: flex;
   flex-direction: column;
+  width: 100dvw;
+  overflow-x: hidden;
 }
 .subscribeBtn {
   transition: $transition;
@@ -569,7 +571,7 @@ header {
     }
   }
 }
-.companies {
+.participants {
   padding: 20px 0;
   .container {
     position: relative;
@@ -674,21 +676,18 @@ header {
     }
   }
 }
-
 .register {
   padding: 120px 0;
   .container {
     position: relative;
     width: min(100% - 24px, 770px);
     margin: auto;
-
     .images3D {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-  
       .joystick {
         position: absolute;
         bottom: -120px;
@@ -714,7 +713,6 @@ header {
         z-index: -1;
       }
     }
-
   }
   .inner {
     padding: 44px;
@@ -780,7 +778,6 @@ header {
         }
       }
     }
-
     .subscribeBtn {
       width: 100%;
       text-align: center;
@@ -788,28 +785,27 @@ header {
     }
   }
 }
-
-footer{
+footer {
   padding: 80px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  .logo{
+  .logo {
     height: 88px;
   }
-  .social{
+  .social {
     display: flex;
     gap: 8px;
-    a{
-      img{
+    a {
+      img {
         height: 44px;
         aspect-ratio: 1;
       }
     }
   }
-  .contatct{
+  .contatct {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
@@ -818,15 +814,13 @@ footer{
       font-family: fontBold;
       width: 100%;
       font-size: 22px;
-      color: #ECCB6D;
+      color: #eccb6d;
       @media screen and (max-width: 768px) {
         font-size: 20px;
       }
     }
-
-    .line{
+    .line {
       color: $whiteColor;
     }
   }
-  
 }

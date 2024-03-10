@@ -295,6 +295,8 @@ button {
 content {
   display: flex;
   flex-direction: column;
+  width: 100dvw;
+  overflow-x: hidden;
 }
 
 .subscribeBtn {
@@ -601,19 +603,19 @@ header .links a {
   color: #0f0e16;
 }
 
-.companies {
+.participants {
   padding: 20px 0;
 }
-.companies .container {
+.participants .container {
   position: relative;
   width: min(100% - 24px, 1200px);
   margin: auto;
 }
-.companies .container .bgImg {
+.participants .container .bgImg {
   width: 100%;
   aspect-ratio: 1;
 }
-.companies .container .companiesImg {
+.participants .container .companiesImg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -622,11 +624,11 @@ header .links a {
   transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 992px) {
-  .companies .container .companiesImg {
+  .participants .container .companiesImg {
     display: none;
   }
 }
-.companies .container .text {
+.participants .container .text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -639,7 +641,7 @@ header .links a {
   align-items: center;
   width: min(100% - 24px, 550px);
 }
-.companies .container .text .title {
+.participants .container .text .title {
   background: linear-gradient(to right, #ee927b, #a8a9db);
   -webkit-background-clip: text;
   background-clip: text;
@@ -649,18 +651,18 @@ header .links a {
   line-height: 48px;
 }
 @media screen and (max-width: 768px) {
-  .companies .container .text .title {
+  .participants .container .text .title {
     font-size: 24px;
     line-height: 24px;
   }
 }
-.companies .container .text .des {
+.participants .container .text .des {
   color: #ffffff;
   font-size: 20px;
   font-family: fontLight;
 }
 @media screen and (max-width: 768px) {
-  .companies .container .text .des {
+  .participants .container .text .des {
     font-size: 18px;
   }
 }
@@ -868,7 +870,7 @@ footer .contatct .title {
   font-family: fontBold;
   width: 100%;
   font-size: 22px;
-  color: #ECCB6D;
+  color: #eccb6d;
 }
 @media screen and (max-width: 768px) {
   footer .contatct .title {
