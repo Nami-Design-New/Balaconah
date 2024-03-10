@@ -295,8 +295,6 @@ button {
 content {
   display: flex;
   flex-direction: column;
-  width: 100dvw;
-  overflow-x: hidden;
 }
 
 .subscribeBtn {
@@ -725,6 +723,8 @@ header .links a {
 
 .register {
   padding: 120px 0;
+  width: 100dvw;
+  overflow-x: hidden;
 }
 .register .container {
   position: relative;

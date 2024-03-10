@@ -286,8 +286,6 @@ button {
 content {
   display: flex;
   flex-direction: column;
-  width: 100dvw;
-  overflow-x: hidden;
 }
 .subscribeBtn {
   transition: $transition;
@@ -678,6 +676,8 @@ header {
 }
 .register {
   padding: 120px 0;
+  width: 100dvw;
+  overflow-x: hidden;
   .container {
     position: relative;
     width: min(100% - 24px, 770px);
