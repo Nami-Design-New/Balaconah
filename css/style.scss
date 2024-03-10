@@ -53,7 +53,6 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: $mainColor;
 }
 button {
   cursor: pointer;
@@ -295,6 +294,9 @@ content {
   color: $whiteColor;
   @media screen and (max-width: 768px) {
     padding: 10px 48px;
+  }
+  &::hover{
+    color: $whiteColor;
   }
 }
 header {

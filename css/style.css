@@ -47,7 +47,6 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #f06b47;
 }
 
 button {
@@ -308,6 +307,9 @@ content {
   .subscribeBtn {
     padding: 10px 48px;
   }
+}
+.subscribeBtn::hover {
+  color: #ffffff;
 }
 
 header {
